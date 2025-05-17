@@ -1,0 +1,28 @@
+# Ignorer node_modules (si tu utilises npm/yarn)
+node_modules/
+
+# Ignorer vendor (si tu utilises composer en PHP)
+vendor/
+
+# Fichiers de configuration sensibles
+.env
+.env.local
+
+# Logs et erreurs
+*.log
+
+# Archives ou sauvegardes
+*.zip
+*.tar
+*.bak
+
+# Dossiers système
+.DS_Store
+Thumbs.db
+
+# Cache ou build
+dist/
+build/
+
+# Ignorer fichiers temporaires
+*.swp
