@@ -1,0 +1,19 @@
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# React build
+client/build/
+
+# Environnement
+client/.env
+server/.env
+
+# Logs
+*.log
+
+# IDE & système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
