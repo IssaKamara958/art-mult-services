@@ -1,0 +1,150 @@
+.hero {
+  background: linear-gradient(to right, #fff4e6, #ffe0b2);
+  padding: 80px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero .highlight {
+  color: #f57c00;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #f57c00;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #e65100;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 15px;
+    min-height: 80vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero-button {
+    padding: 10px 25px;
+    font-size: 0.95rem;
+  }
+}
+
+.hero {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../imgs/call.jpg'); /* Image de fond optionnelle */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(107, 160, 252, 0.8); /* Fond semi-transparent pour mieux contraster */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #FF6347; /* Couleur attrayante pour mettre en valeur */
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-button {
+  padding: 12px 30px;
+  font-size: 1.125rem;
+  background-color: #FF6347;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #FF4500;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-button {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+}

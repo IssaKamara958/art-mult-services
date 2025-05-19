@@ -1,0 +1,36 @@
+.partners-section {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+  
+  .partners-logos img {
+    max-width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .partners-logos img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 600px) {
+    .partners-logos {
+      gap: 20px;
+    }
+  
+    .partners-logos img {
+      max-width: 80px;
+    }
+  }
+  

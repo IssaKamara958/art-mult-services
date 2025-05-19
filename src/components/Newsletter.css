@@ -1,0 +1,53 @@
+.newsletter-section {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #f57c00;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #e86c00;
+  }
+  
+  .success-message {
+    margin-top: 10px;
+    color: green;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 480px) {
+    .newsletter-form input[type="email"] {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 0.95rem;
+    }
+  }
+  

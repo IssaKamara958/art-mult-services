@@ -1,0 +1,13 @@
+.atelier-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .atelier-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  

@@ -1,0 +1,14 @@
+.about-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    line-height: 1.7;
+  }
+  
